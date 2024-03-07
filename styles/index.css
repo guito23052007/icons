@@ -81,6 +81,9 @@ button:hover{
 color: rgb(255, 255, 255);
 }
 @media only screen and (max-width: 767px) {
+    body{
+        background-color: rgba(238, 10, 170, 0.199);
+     }
     main div {
         width: 40%;
         height: 40%;
@@ -89,11 +92,12 @@ color: rgb(255, 255, 255);
         left: 33%;
         text-align: center;
         box-shadow: 0 0 30px rgba(243, 242, 242, 0.479);
-        background-color: rgba(238, 10, 170, 0);
-    
+        background-color: rgba(114, 112, 113, 0);
     }
+    
+    
     body img {
-        width: 100%;
+        width: 0%;
         height: 100vh;
         display: grid;
     }
@@ -119,6 +123,9 @@ color: rgb(255, 255, 255);
   
 }
 @media only screen and (max-width: 463px) {
+    body{
+        background-color: rgba(238, 10, 170, 0.199);
+    }
     main div {
         width: 60%;
         height: 40%;
@@ -127,13 +134,15 @@ color: rgb(255, 255, 255);
         left: 20%;
         text-align: center;
         box-shadow: 0 0 30px rgba(255, 255, 255, 0.288);
-        background-color: rgba(240, 248, 255, 0);
+        background-color: rgba(175, 175, 175, 0);
     }
     body img {
-        width: 100%;
+        width: 0%;
         height: 100vh;
         display: grid;
+       
     }
+   
     h1{
         color: white;
         font-size: 29px;
